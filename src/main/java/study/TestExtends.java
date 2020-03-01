@@ -16,6 +16,7 @@ public class TestExtends {
         System.out.println(stu2 instanceof Student1);
         System.out.println(stu2 instanceof  Persion);
         System.out.println(new Persion() instanceof Student1);
+        System.out.println(stu2 instanceof Object);
     }
 
 }
