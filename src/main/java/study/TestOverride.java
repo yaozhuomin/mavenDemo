@@ -20,7 +20,7 @@ class Vehicle{
     public void stop(){
         System.out.println("停下");
     }
-    public  Persion whoIsPsg(){
+    public Persion whoIsPsg(){
         return new Persion();
     }
 }

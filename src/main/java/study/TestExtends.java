@@ -14,7 +14,7 @@ public class TestExtends {
 
         Student1 stu2 = new Student1("yaosir",177,"计算机");
         System.out.println(stu2 instanceof Student1);
-        System.out.println(stu2 instanceof  Persion);
+        System.out.println(stu2 instanceof Persion);
         System.out.println(new Persion() instanceof Student1);
         System.out.println(stu2 instanceof Object);
     }
@@ -24,11 +24,11 @@ class Persion {
     String name;
     double height;
 
-    public void rest() {
+    public void rest()   {
         System.out.println("休息一会");
     }
 }
-class Student1 extends Persion{
+class Student1 extends Persion {
 
     String major;
 
