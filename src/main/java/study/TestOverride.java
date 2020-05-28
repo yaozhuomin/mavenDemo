@@ -20,8 +20,8 @@ class Vehicle{
     public void stop(){
         System.out.println("停下");
     }
-    public Persion whoIsPsg(){
-        return new Persion();
+    public Persion2 whoIsPsg(){
+        return new Persion2();
     }
 }
 class Horse extends Vehicle{
@@ -30,7 +30,7 @@ class Horse extends Vehicle{
     }
 
     //返回值类型小于等于父类得类型
-    public Student1 whoIsPsg(){
-        return new Student1();
+    public Persion2 whoIsPsg(){
+        return new Persion2();
     }
 }
